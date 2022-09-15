@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+
+body {
+    background: linear-gradient(90deg, #008B8B 0%,  #8A2BE2  100%);
+    background-Size : "400% 400%";
+    animation : "gradient 25s ease infinite";
+    color: #763568;
+}
+
+
+#logo1 {
+position: absolute;
+left: 12px;
+top: 15px;
+}
+#logo2{
+    position: absolute;
+    left: 100px;
+    top: 13px;
+}
+
+
+
+
+.contest {
+    color :  #ffffff ;
+    font-size: 2.5rem;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width:700px){
+    .contest  {
+       margin-top: 130px;
+    }
+    #logo1 {
+        top: 20px;
+        }
+    
+}
